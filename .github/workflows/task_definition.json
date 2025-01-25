@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:957172219797:task-definition/DemoGitActions:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:957172219797:task-definition/DemoGitActions:1",
     "containerDefinitions": [
         {
             "name": "iris_pred",
-            "image": "957172219797.dkr.ecr.us-eas2-1.amazonaws.com/iris_pred:latest",
+            "image": "957172219797.dkr.ecr.us-east-2.amazonaws.com/iris_pred:latest",
             "cpu": 0,
             "portMappings": [
                 {
